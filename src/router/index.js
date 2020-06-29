@@ -41,6 +41,13 @@ const routes = [
       return import(/* webpackChunkName: "game-over" */ "../views/gameOver.vue");
     }
   },
+  {
+    path: "/newQuiz",
+    name: "newQuiz",
+    component: function() {
+      return import(/* webpackChunkName: "game-over" */ "../views/newQuiz.vue");
+    }
+  },
 ];
 
 const router = new VueRouter({
