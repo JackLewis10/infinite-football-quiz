@@ -1,9 +1,14 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <div id="nav">
+      <router-link to="/splash">Splash</router-link> |
+      <router-link to="/quizStart">Start</router-link> |
+      <router-link to="/quiz">Quiz</router-link> |
+      <router-link to="/fill-flow">Fill</router-link> |
+      <router-link to="/">Base</router-link> |
+      <router-link to="/prize">Prize</router-link> |
+      <router-link to="/game-over">Game Over</router-link> 
+    </div> -->
     <router-view />
   </div>
 </template>
@@ -24,6 +29,7 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  font-size: small;
 }
 
 #nav a.router-link-exact-active {
